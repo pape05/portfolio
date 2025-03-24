@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>My Portfolio</title>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-white/80 backdrop-blur-md shadow-xl fixed w-full top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold text-gray-800 hover:text-blue-500 transition duration-300">My Portfolio</div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="text-gray-600 hover:text-blue-500 transition duration-300">Home</a></li>
+          <li><a href="#projects" class="text-gray-600 hover:text-blue-500 transition duration-300">Projects</a></li>
+          <li><a href="#about" class="text-gray-600 hover:text-blue-500 transition duration-300">About</a></li>
+          <li><a href="#contact" class="text-gray-600 hover:text-blue-500 transition duration-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 text-white h-screen flex flex-col justify-center items-center text-center pt-20">
+    <h1 class="text-6xl md:text-8xl font-bold animate-pulse">Hi, I'm Papa Amadou Sarr</h1>
+    <p class="mt-4 text-2xl md:text-3xl font-light animate-bounce">Student at UNIPRO University</p>
+    <a href="#projects" class="mt-8 bg-white text-blue-500 px-8 py-4 rounded-full shadow-lg hover:bg-blue-50 transition duration-300 transform hover:scale-105 animate-pulse">View My Work</a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-100">
+    <div class="container mx-auto">
+      <h2 class="text-5xl font-bold mb-12 text-center text-gray-800">My Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <!-- Project Card 1 -->
+        <!-- Project Card 1 -->
+    <div class="max-w-sm rounded-lg overflow-hidden shadow-2xl bg-white transform transition duration-300 hover:scale-105 hover:shadow-3xl">
+      <img class="w-full h-48 object-cover rounded-lg transition duration-500 ease-in-out transform hover:scale-110 hover:brightness-110 shadow-lg hover:shadow-2xl" src="images/image.png" alt="Project 1">
+    <div class="px-6 py-4">
+      <h3 class="font-bold text-2xl mb-2">Project Python</h3>
+      <p class="text-gray-700 text-base">Ce projet consistait à mettre en place divers applications à l'aide de Python regroupées sous une interface graphique.</p>
+  </div>
+    </div>
+<!-- Project Card 2 -->
+<div class="max-w-sm rounded-lg overflow-hidden shadow-2xl bg-white transform transition duration-300 hover:scale-105 hover:shadow-3xl">
+  <img class="w-full h-60 object-cover object-center rounded-lg transition duration-500 ease-in-out transform hover:scale-110 hover:brightness-105 shadow-lg hover:shadow-2xl" src="images/Capture d’écran 2025-03-23 021603.png" alt="Project 2">
+  <div class="px-6 py-4">
+    <h3 class="font-bold text-2xl mb-2">Project Développement Web</h3>
+    <p class="text-gray-700 text-base">Ce projet consistait à mettre en place une application de gestion des rendez-vous médicaux. Voici un exemple de l'interface.</p>
+  </div>
+</div>
+        <!-- Project Card 3 -->
+        <div class="max-w-sm rounded-lg overflow-hidden shadow-2xl bg-white transform transition duration-300 hover:scale-105 hover:shadow-3xl">
+          <img class="w-full h-48 object-cover" src="project-image3.jpg" alt="Project 3">
+          <div class="px-6 py-4">
+            <h3 class="font-bold text-2xl mb-2">Project Title 3</h3>
+            <p class="text-gray-700 text-base">Pas encore de 3eme project concret . </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section -->
+<section id="skills" class="py-16 bg-gray-100">
+  <div class="container mx-auto text-center">
+    <h2 class="text-5xl font-bold mb-12 text-gray-800">Compétences</h2>
+    <p class="text-gray-700 text-xl max-w-3xl mx-auto leading-relaxed mb-8">
+      Voici une liste de mes compétences techniques que j'ai acquises à travers mes expériences en développement web.
+    </p>
+    
+    <!-- Compétences listées en grille -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 py-12">
+      <div class="bg-white p-6 rounded-lg shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-blue-50">
+        <h3 class="text-2xl font-semibold text-gray-800 text-center">HTML</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-blue-50">
+        <h3 class="text-2xl font-semibold text-gray-800 text-center">CSS</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-blue-50">
+        <h3 class="text-2xl font-semibold text-gray-800 text-center">JavaScript</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-blue-50">
+        <h3 class="text-2xl font-semibold text-gray-800 text-center">React</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-blue-50">
+        <h3 class="text-2xl font-semibold text-gray-800 text-center">Node.js</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-blue-50">
+        <h3 class="text-2xl font-semibold text-gray-800 text-center">MySQL</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-blue-50">
+        <h3 class="text-2xl font-semibold text-gray-800 text-center">NestJS</h3>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-xl transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-blue-50">
+        <h3 class="text-2xl font-semibold text-gray-800 text-center">Tailwind CSS</h3>
+      </div>
+    </div>
+    
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-gradient-to-r from-blue-50 to-purple-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-5xl font-bold mb-12 text-gray-800">About Me</h2>
+      <p class="text-gray-700 text-xl max-w-3xl mx-auto leading-relaxed">
+        I’m a passionate full-stack developer with a love for creating modern and responsive web applications. I have experience in various technologies such as HTML, CSS, JavaScript, and modern frameworks like React and Node.js. My goal is to deliver engaging and efficient web solutions that meet the needs of users and clients alike.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="container mx-auto max-w-lg">
+      <h2 class="text-5xl font-bold mb-12 text-center text-gray-800">Contact Me</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="bg-white p-8 rounded-lg shadow-2xl transform transition duration-300 hover:shadow-3xl">
+        <input class="w-full p-4 mb-6 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" type="text" name="name" placeholder="Your Name" required>
+        <input class="w-full p-4 mb-6 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" type="email" name="email" placeholder="Your Email" required>
+        <textarea class="w-full p-4 mb-6 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button class="w-full bg-blue-500 text-white py-4 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 transform hover:scale-105">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p class="text-lg">© 2025 Papa Amadou Sarr. All rights reserved.</p>
+      <div class="mt-4 flex justify-center space-x-6">
+        <a href="#" class="text-gray-400 hover:text-blue-500 transition duration-300">LinkedIn</a>
+        <a href="#" class="text-gray-400 hover:text-blue-500 transition duration-300">GitHub</a>
+        <a href="#" class="text-gray-400 hover:text-blue-500 transition duration-300">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
